@@ -1,10 +1,21 @@
-let myVar;
-console.log("myVar: ", myVar) ;
+let myTrue = true;
+let myFalse = false;
 
+console.log(2 == 2);
+console.log(2 == 3);
 
-let obj = {};
-console.log("obj.prop: ", obj.prop);
+//конструктор булевого типа
 
-let arr = [1,1,3];
+console.log(Boolean(5));
+console.log(Boolean("Hello"));
+console.log(Boolean([]));
+console.log(Boolean({}));
+console.log(Boolean(function(){}));
 
-console.log("arr: ", arr[5]);
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean(null));
+console.log(Boolean(NaN));
+console.log(Boolean(""));
+
+if(5){}
