@@ -1,27 +1,41 @@
 
-// числа
+// числа: унарные операторы
 
-console.log(typeof 50);
-console.log(typeof 8.5);
-console.log(typeof 0.5);
 
-//форма записи чисел
+console.log(+5);
+console.log(-5);
 
-console.log(typeof .5);
-console.log(typeof 5e6);
-console.log(typeof 0b1111);
-console.log(typeof 011);
 
-//ES6: new type:
-console.log(typeof O011);
+let i = 5;
 
-console.log(typeof 0x22aacc);
-console.log(typeof Infinity);
-console.log(typeof naN);
+//Префиксная запись:
+console.log(++i);
+console.log(i);
 
-console.log(5 / 0);
-console.log(-5 / 0);
+// Постфиксная запись:
 
-console.log(0 / 0);
-console.log(Infinity / Infinity);
-console.log("javascript" * 5);
+
+console.log(i--);
+console.log(i);
+
+//Бинарные операторы
+
+console.log(3 + 4);
+console.log(3 - 4);
+console.log(2* 3);
+console.log(9 / 2);
+console.log(9 % 2);
+
+//Присваивание операции
+
+let n = 15;
+console.log("n: ", n);
+n += 3;
+//n = n + 3;
+console.log("n: ", n);
+n-=6;
+//n = n - 6; 
+console.log("n: ", n);
+n /= 3;
+//n = n / 3;
+console.log("n: ", n);
