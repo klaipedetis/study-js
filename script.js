@@ -1,17 +1,27 @@
-let myTrue = true;
-let myFalse = false;
 
-//logical operators:
+// числа
 
-// || && !
+console.log(typeof 50);
+console.log(typeof 8.5);
+console.log(typeof 0.5);
 
-console.log(true && true);
-console.log(true && false);
-console.log(false && false);
+//форма записи чисел
 
-console.log(!true);
-console.log(!false);
+console.log(typeof .5);
+console.log(typeof 5e6);
+console.log(typeof 0b1111);
+console.log(typeof 011);
 
-console.log(true || true);
-console.log(true || false);
-console.log(false || false);
+//ES6: new type:
+console.log(typeof O011);
+
+console.log(typeof 0x22aacc);
+console.log(typeof Infinity);
+console.log(typeof naN);
+
+console.log(5 / 0);
+console.log(-5 / 0);
+
+console.log(0 / 0);
+console.log(Infinity / Infinity);
+console.log("javascript" * 5);
