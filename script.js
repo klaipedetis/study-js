@@ -1,11 +1,18 @@
+let myVar;
 
+myVar =10;
+myVar = "Show money";
+myVar = true;
+myVar = null;
+myVar = undefined;
+myVar = Symbol();
 
-let money = "curency";
-let income: 25;
-let addExpenses = 69;
-let deposit = 100;
-let period = 10;
+myVar = {};
 
+let myArr = [];
+let regExp =/w+/g;
+let func = function(){};
+let error = Error("error message");
+let date = new Date();
 
-alert("show money");
-console.log(1);
+console.log(typeof myArr);
