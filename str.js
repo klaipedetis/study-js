@@ -1,4 +1,5 @@
 //инициализация переменных
+//пункт 1:
 
 let money = 600;
     console.log(money);
@@ -16,3 +17,9 @@ let deposit = 50;
   
 let mission = 10000;
 console.log(mission);
+
+
+let period = 12;
+console.log(period);
+
+    
