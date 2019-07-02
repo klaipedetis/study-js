@@ -1,7 +1,7 @@
 //инициализация переменных
 //пункт 1:
 
-let money = 600;
+var money = 600;
     console.log(money);
 
 let income = "Доход от фриланса";
@@ -35,10 +35,20 @@ let money = 600;
 let income = "Доход от фриланса";
     console.log(typeof(income));
 
-
-
 let deposit = 50;
         console.log(Boolean(deposit));
 
 
-        
+// длина income
+
+let income = "Доход от фриланса";
+    console.log(str.length);
+
+    let money = 600;
+    let budgetDay = money / 30;
+    console.log(budgetDay); 
+    console.log(money % budgetDay);
+
+
+
+    
