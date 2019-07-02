@@ -14,5 +14,5 @@ let deposit = 50;
         console.log(deposit);
     }
   
-
-    
+let mission = 10000;
+console.log(mission);
