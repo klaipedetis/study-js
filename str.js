@@ -26,4 +26,19 @@ console.log(period);
     var addExpenes = "Аренда, Еда, Налоги, Путешествия";
     console.log(str.toLowerCase);
 
+// пункт 2
 
+
+let money = 600;
+    console.log(typeof(money));
+
+let income = "Доход от фриланса";
+    console.log(typeof(income));
+
+
+
+let deposit = 50;
+        console.log(Boolean(deposit));
+
+
+        
