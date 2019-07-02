@@ -22,4 +22,8 @@ console.log(mission);
 let period = 12;
 console.log(period);
 
-    
+
+    var addExpenes = "Аренда, Еда, Налоги, Путешествия";
+    console.log(str.toLowerCase);
+
+
