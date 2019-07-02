@@ -1,21 +1,21 @@
+//Strigs
 
-// числа: операции сравнения
+let myString = "Hello World";
+let myStr ="\t Hello \"my\" \n friends!";
+consol.log('myStr:', myStr);
 
-console.log(3 > 2);
-console.log(3 < 2);
-console.log(5 >= 3);
-console.log(10 <= 5);
-console.log(5 === 5);
-console.log(5 != 6);
-console.log(5 == "5");
-console.log(5 != "5");
+console.log("Hello" + "world"); //сложение строк
+console.log(5+ "10");
+console.log(typeof(5 + "10"));
+console.log("Hello" + " " + "world");
+
+let str = "Hello my friends!";
+console.log(myString + str);
 
 
-//математические функции
+let str = "Hello my friends!";
 
-console.log(Math.sqrt(25)); // Извлеение корня
-console.log(Math.pow(5, 3)); // возведение в степень
 
-console.log(Number.isInteger(5.5));//проверка числа на цело
+    console.log(str.length); //показывет кол-во символов в строке
+    console.log(str.toUpperCase());
 
-//числительность(true - целое or falce - если дробное)
