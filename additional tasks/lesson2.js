@@ -5,7 +5,7 @@ console.log(2*6*6*2*1*9);
 
 let squared = 1296 **3;
 let num = 1296;
-num *=3;
+num *= 3;
 console.log(num);
 
 
