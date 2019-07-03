@@ -12,10 +12,6 @@ console.log("Hello" + " " + "world");
 let str = "Hello my friends!";
 console.log(myString + str);
 
-
-let str = "Hello my friends!";
-
-
     console.log(str.length); //показывет кол-во символов в строке
     console.log(str.toUpperCase());
 
