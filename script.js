@@ -1,4 +1,3 @@
-//Strigs
 
 let myString = "Hello World";
 let myStr ="\t Hello \"my\" \n friends!";
