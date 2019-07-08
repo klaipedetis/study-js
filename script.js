@@ -1,21 +1,59 @@
-//Strigs
+"use strict";
 
-let myString = "Hello World";
-let myStr ="\t Hello \"my\" \n friends!";
-consol.log('myStr:', myStr);
+function functMath(a, b, plus, minus){
+    let res = (a > b) ? minus (a, b) : plus (a, b);
+    console.log(res);
+}
 
-console.log("Hello" + "world"); //сложение строк
-console.log(5+ "10");
-console.log(typeof(5 + "10"));
-console.log("Hello" + " " + "world");
+functMath(
+    6,
+    2,
+   function(a, b){return a + b;},
+    function(a, b){return a - b}
+    );
+        
+    
 
-let str = "Hello my friends!";
-console.log(myString + str);
+  let logUser = function (userData){
+      if(userData === "admin"){
+          return("Администратор");
+     } else{
+         return("Пользователь");
+     }
+    };
+
+    let inputUser = function(user,  callback){
+        let status = "user";
+        if(user === "Andrej" ||  user === "Vasilij"){
+            status = "admin";
+        }
+    return callback(status);
+};
 
 
-let str = "Hello my friends!";
+console.log(inputUser("Maxim", logUser));
+
+// Область видимости
+
+let myFunc = function(){
+let n = 10;
+let myFunc2 = function(){
+console.log(n);
+};
+
+myFunc2();
+
+};
+
+myFunc();
 
 
-    console.log(str.length); //показывет кол-во символов в строке
-    console.log(str.toUpperCase());
+function funcMath(){
+    let a = 10;
+    return function(){
+        console.log( a * a);
+    };
+}
 
+let mathPow = funcMath();
+mathPow();
