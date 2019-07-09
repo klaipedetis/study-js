@@ -12,7 +12,7 @@ console.log(addExpenses.split(", "));
 console.log(typeof (money), typeof (income), typeof (deposit));
 
 let showTypeof = function () {
-    console.log(item, typeof item);
+    console.log("item", typeof item);
 };
 
 showTypeof(money);
@@ -23,7 +23,7 @@ showTypeof(deposit);
 
 let budgetMounth = money - sum - sum1;
 console.log(budgetMounth);
-console.log(Math.ceil(mission / budgetMonth));
+console.log(Math.ceil(mission / budgetMounth));
 
 let budgetDay = budgetMounth / 30;
 console.log(Math.floor(budgetDay));
@@ -40,8 +40,8 @@ function getStatusIncome(){
 console.log("getStatusIncome(): ", getStatusIncome());
 
 
-       let getexpensesMouth = function getExpensesMounth() {
-            console.log(money - sum - sum1);
+       let getexpensesMounth = function getExpensesMounth() {
+            console.log(money + sum + sum1);
         }
         
         getExpensesMounth();
