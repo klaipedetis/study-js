@@ -40,20 +40,20 @@ function getStatusIncome(){
 console.log("getStatusIncome(): ", getStatusIncome());
 
 
-       let getexpensesMounth = function getExpensesMounth() {
-            console.log(money + sum + sum1);
+       let getExpensesMonth = function getExpensesMonth() {
+            console.log(sum + sum1);
         }
         
-        getExpensesMounth();
+        getExpensesMonth();
 
         let getAccumulatedMonth = function getAccumulatedMonth() {
-                console.log(getAccumulatedMonth - budgetMounth);
+                console.log(getAccumulatedMonth - budgetMonth);
         }
 
-        getAcumulatedMouth();
+        getAcumulatedMonth();
         
-        function getTargetMouth(){
+        function getTargetMonth(){
             console.log(Math.floor(mission / getAccumulatedMonth));
         };
-            getTargetMouth();
+            getTargetMonth();
 
