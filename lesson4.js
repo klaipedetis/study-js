@@ -11,8 +11,8 @@ let money = prompt("Ваш месячный доход?"),
 console.log(addExpenses.split(", "));
 console.log(typeof (money), typeof (income), typeof (deposit));
 
-let showTypeof = function () {
-    console.log("item", typeof item);
+let showTypeof = function (item) {
+    console.log(item, typeof item);
 };
 
 showTypeof(money);
@@ -43,14 +43,15 @@ console.log("getStatusIncome(): ", getStatusIncome());
        let getExpensesMonth = function getExpensesMonth() {
             console.log(sum + sum1);
         }
-        
-        getExpensesMonth();
+                console.log(getExpensesMonth());
+
+            let getAcumulatedMonth;
 
         let getAccumulatedMonth = function getAccumulatedMonth() {
-                console.log(getAccumulatedMonth - budgetMonth);
+                console.log(getBudgetMonth - getExpensesMonth);
         }
 
-        getAcumulatedMonth();
+       getAcumulatedMonth();
         
         function getTargetMonth(){
             console.log(Math.floor(mission / getAccumulatedMonth));
