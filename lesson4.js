@@ -19,12 +19,31 @@ showTypeof(money);
 showTypeof(income);
 showTypeof(deposit);
 
+let start = function () {
+    do {
+        money = prompt("Ваш месячный доход?");
+        console.log(money);
+    }
+    while (isNaN(money) || money == "" || money == null);
+    money = prompt("Ваш месячный доход?");
+    console.log(money);
+
+};
+
+
 
 
 let budgetMonth = money - sum - sum1;
 
 
 let budgetDay = budgetMonth / 30;
+console.log(budgetDay);
+
+if (budgetDay >= 0){
+    console.log(budgetDay);
+}else {
+   return("что то пошло не так");
+}
 
 
 function getStatusIncome() {
@@ -42,6 +61,8 @@ console.log("getStatusIncome(): ", getStatusIncome());
 let getExpensesMonth = function getExpensesMonth() {
     return sum + sum1;
 }
+while (isNaN(getExpensesMonth) || getExpensesMonth == "", getExpensesMonth == null);
+
 console.log(getExpensesMonth());
 
 
@@ -54,8 +75,15 @@ console.log(getAccumulatedMonth());
 
 
 function getTargetMonth() {
-    
+
     console.log(Math.floor(mission / getAccumulatedMonth()));
 };
 getTargetMonth();
+
+if (getTargetMonth() <= 0) {
+  return("Цель не будет достигнута”);
+
+} else if (getTargetMonth() >= 0) {
+    return("Цель будет достигнута");
+}
 
